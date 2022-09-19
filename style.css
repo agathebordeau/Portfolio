@@ -1,0 +1,130 @@
+body {
+background-color: #000000; 
+font-size: 20px;
+color: white;
+font-family: avenir;
+}
+
+
+
+.img_bkg {
+position: absolute;
+width: 100%;
+width: 100%;
+left: 0px;
+top: 0px;
+blend-mode: normal;
+opacity: 0.5;
+  }
+
+
+h1 {
+ position: relative;
+ line-height: 5px;
+ font-weight: 100;
+ font-size: 25px;
+  }
+
+h2 {
+ position: relative;
+ font-weight: 700;
+ line-height: 5px;
+ font-size: 25px;
+  }
+
+
+.labeur {
+position: absolute;
+left: 50%;
+right: 15%;
+top: 20%;
+font-weight: 300;
+font-size: 35px;
+line-height: 40px;
+
+  }
+
+
+.styled {
+    position: relative;
+    border: 1.5px solid white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: white;
+    line-height: 2;
+    padding: 0 15px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 50px;
+
+}
+
+.container { 
+  width: 200px;
+  position: relative;
+  left: 50%;
+  top: -60px;
+}
+
+
+strong { 
+font-style: italic;
+}
+
+
+.styled:hover {
+   background-color: white;
+   color: black;
+}
+
+
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  line-height: 20px;
+  border-radius: 0px;
+  padding: 15px 15px;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 110%;
+
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    color: #fff;
+}
+
+
+
+menu, ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 110%;
+  font-size: 15px;
+}
+
+li, a {
+  flex-grow: 1;
+}
