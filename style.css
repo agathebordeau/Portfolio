@@ -3,18 +3,14 @@ background-color: #000000;
 font-size: 20px;
 color: white;
 font-family: avenir;
+min-height: 100vh;
+background-image:url(media/IMG_2517.jpg);
+background-repeat:  no-repeat;
+background-size: cover;
+background-blend-mode: multiply;
+background-color: #878787;
 }
 
-
-
-.img_bkg {
-position: absolute;
-width: 100%;
-left: 0px;
-top: 0px;
-blend-mode: normal;
-opacity: 0.3;
-  }
 
 
 h1 {
@@ -35,12 +31,11 @@ h2 {
 .labeur {
 position: absolute;
 left: 50%;
-right: 15%;
+right: 8%;
 top: 20%;
 font-weight: 300;
-font-size: 35px;
-line-height: 40px;
-
+font-size: 30px;
+line-height: 35px;
   }
 
 
@@ -52,7 +47,6 @@ a {
 a:hover {
    font-style: italic;
 }
-
 
 .styled {
     position: relative;
